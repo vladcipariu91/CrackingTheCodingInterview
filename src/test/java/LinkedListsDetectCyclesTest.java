@@ -1,3 +1,4 @@
+import linkedlist.Node;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -10,10 +11,10 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class LinkedListsDetectCyclesTest {
 
-    private LinkedListsDetectCycles.Node head;
+    private Node head;
     private boolean hasCycles;
 
-    public LinkedListsDetectCyclesTest(LinkedListsDetectCycles.Node head, boolean hasCycles) {
+    public LinkedListsDetectCyclesTest(Node head, boolean hasCycles) {
         this.head = head;
         this.hasCycles = hasCycles;
     }

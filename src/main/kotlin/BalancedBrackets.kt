@@ -14,12 +14,6 @@ fun main(args: Array<String>) {
     }
 }
 
-fun readIntFromStdIn(): Int = try {
-    readLine()?.toInt() ?: readIntFromStdIn()
-} catch (e: InputMismatchException) {
-    readIntFromStdIn()
-}
-
 fun isBalanced(expression: String): Boolean {
     if (expression.length % 2 == 1) return false
     val bracketStack = Stack<Char>()

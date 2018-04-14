@@ -1,3 +1,5 @@
+import tree.Node;
+
 public class IsBinarySearchTree {
 
     public static void main(String[] args) {
@@ -50,12 +52,5 @@ public class IsBinarySearchTree {
         root.right = rightFirstLevel;
 
         return root;
-    }
-
-    static class Node {
-
-        int data;
-        Node left;
-        Node right;
     }
 }

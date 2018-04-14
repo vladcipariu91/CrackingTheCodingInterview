@@ -1,3 +1,5 @@
+import linkedlist.Node;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -40,15 +42,5 @@ public class LinkedListsDetectCycles {
             }
         }
         return false;
-    }
-
-    public static class Node {
-
-        int data;
-        Node next;
-
-        public Node(int data) {
-            this.data = data;
-        }
     }
 }
