@@ -24,3 +24,8 @@ fun readIntsFromStdIn(): List<Int> {
         readIntsFromStdIn()
     }
 }
+
+fun readStringFromScanner() : String {
+    val scanner = Scanner(System.`in`)
+    return scanner.nextLine().trim()
+}

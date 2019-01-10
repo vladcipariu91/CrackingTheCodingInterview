@@ -42,6 +42,7 @@ public class Pr_1_5_p_90 {
         boolean found = false;
         char[] firstArr = first.toCharArray();
         char[] secondArr = second.toCharArray();
+
         while (i < firstArr.length && j < secondArr.length) {
             if (firstArr[i] != secondArr[j]) {
                 if (found) return false;

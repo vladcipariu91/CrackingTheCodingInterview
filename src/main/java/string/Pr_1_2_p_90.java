@@ -13,6 +13,7 @@ public class Pr_1_2_p_90 {
         System.out.println(isPermutation_better("vlad", "abcd"));
     }
 
+    // incorrect, for input: "aab", "abc" it returns true!
     private static boolean isPermutation(String a, String b) {
         if (isEmpty(a) || isEmpty(b) || a.length() != b.length()) return false;
 
